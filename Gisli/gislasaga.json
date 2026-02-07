@@ -1,0 +1,150 @@
+{
+  "saga": "Gísla saga Súrssonar",
+  "timallina": [
+    {
+      "id": 1,
+      "titill": "Upphaf og fósturheimili",
+      "spennustig": 4,
+      "litakodi": "#555555",
+      "samantekt": "Eftir húsbrennu í Súrnadal í Noregi flýr ættin til Íslands. Gísli og bræður hans bjargast með því að nota sýruker til að slökkva eldinn. Þau nema land í Haukadal í Dýrafirði.",
+      "metadata": {
+        "personur": [
+          {"nafn": "Gísli Súrsson", "hlutverk": "Aðalpersóna og vopnasmiður", "tengsl": "Aðalhetja", "litur": "green"},
+          {"nafn": "Þorkell Súrsson", "hlutverk": "Bróðir Gísla", "tengsl": "Andstæða Gísla í lund", "litur": "yellow"},
+          {"nafn": "Þórdís Súrsdóttir", "hlutverk": "Systir Gísla", "tengsl": "Gift Þorgrími goða", "litur": "red"}
+        ],
+        "stadir": [
+          {"nafn": "Súrnadalur", "lysing": "Heimkynni í Noregi þar sem húsbrennan átti sér stað."},
+          {"nafn": "Haukadalur", "lysing": "Dalur í Dýrafirði þar sem búin Hóll og Sæból eru reist."}
+        ],
+        "hlutir": [
+          {"nafn": "Sýruker", "lysing": "Bjargaði lífi bræðranna í húsbrennunni; uppruni viðurnefnisins."}
+        ]
+      }
+    },
+    {
+      "id": 2,
+      "titill": "Vinátta og samkomulag",
+      "spennustig": 5,
+      "litakodi": "#2D5A27",
+      "samantekt": "Tilraun til að binda fjölskylduna saman með fóstbræðralagi á Eyrarhvolsodda brestur þegar Þorgrímur neitar að takast í hendur við Véstein.",
+      "metadata": {
+        "personur": [
+          {"nafn": "Vésteinn Vésteinsson", "hlutverk": "Mágur Gísla", "tengsl": "Besti vinur Gísla og bróðir Auðar", "litur": "green"},
+          {"nafn": "Þorgrímur goði", "hlutverk": "Goðorðsmaður", "tengsl": "Mágur Gísla og helsti keppinautur", "litur": "red"}
+        ],
+        "stadir": [
+          {"nafn": "Eyrarhvolsoddi", "lysing": "Þar sem rist var upp torfa fyrir fóstbræðralagið."}
+        ],
+        "atburdur": "Rista í fóstbræðralagið - upphaf ógæfunnar."
+      }
+    },
+    {
+      "id": 3,
+      "titill": "Víg Vésteins",
+      "spennustig": 8,
+      "litakodi": "#8B0000",
+      "samantekt": "Vésteinn er myrtur í rekkju sinni á Hóli eftir að Þorkell heyrir leyndarmál í dyngjunni. Gísli dregur spjótið Grásíðu úr sárinu.",
+      "metadata": {
+        "personur": [
+          {"nafn": "Ásgerður", "hlutverk": "Eiginkona Þorkels", "tengsl": "Hleypir af stað afbrýðisemi með tali sínu", "litur": "yellow"},
+          {"nafn": "Auður Vésteinsdóttir", "hlutverk": "Eiginkona Gísla", "tengsl": "Einstök hollusta við Gísla og bróður sinn", "litur": "green"}
+        ],
+        "stadir": [
+          {"nafn": "Hóll", "lysing": "Heimili Gísla og Auðar þar sem Vésteinn fellur."}
+        ],
+        "hlutir": [
+          {"nafn": "Hálfur peningur", "lysing": "Jartegn sem átti að vara Véstein við hættunni."},
+          {"nafn": "Grásíða", "lysing": "Fornt vopn sem notað var við vígið."}
+        ]
+      }
+    },
+    {
+      "id": 4,
+      "titill": "Drápið á Þorgrími og útlegð",
+      "spennustig": 9,
+      "litakodi": "#8B0000",
+      "samantekt": "Gísli hefnir Vésteins með því að drepa Þorgrím goða á Sæbóli. Vísan sem hann kveður afhjúpar hann og hann er dæmdur sekur á þingi.",
+      "metadata": {
+        "personur": [
+          {"nafn": "Börkur hinn digri", "hlutverk": "Bróðir Þorgríms", "tengsl": "Sækir Gísla til saka og giftist Þórdísi", "litur": "red"},
+          {"nafn": "Þórdís Súrsdóttir", "hlutverk": "Ekkja Þorgríms", "tengsl": "Segir upp vísu Gísla og veldur útlegð hans", "litur": "red"}
+        ],
+        "stadir": [
+          {"nafn": "Sæból", "lysing": "Bærinn þar sem Gísli fremur hefndarvígið að næturlagi."},
+          {"nafn": "Þórsnesþing", "lysing": "Þar sem Gísli er dæmdur skógarmaður um allt Ísland."}
+        ]
+      }
+    },
+    {
+      "id": 5,
+      "titill": "Útlegðarárin",
+      "spennustig": 6,
+      "litakodi": "#D4AF37",
+      "samantekt": "Gísli er í útlegð í 13 ár. Hann þjáist af illum draumum þar sem tvær konur vitja hans og spá fyrir um örlög hans.",
+      "metadata": {
+        "personur": [
+          {"nafn": "Betri draumkonan", "hlutverk": "Andlegur fylgja", "tengsl": "Sýnir Gísla líkn og góða staði", "litur": "green"},
+          {"nafn": "Verri draumkonan", "hlutverk": "Boðberi dauða", "tengsl": "Smitar drauma Gísla með blóði", "litur": "red"}
+        ],
+        "stadir": [
+          {"nafn": "Geirþjófsfjörður", "lysing": "Aðal felustaður Gísla í útlegðinni."}
+        ]
+      }
+    },
+    {
+      "id": 6,
+      "titill": "Samband Gísla og Auðar",
+      "spennustig": 7,
+      "litakodi": "#2D5A27",
+      "samantekt": "Eyjólfur grái reynir að múta Auði til að svíkja Gísla. Hún slær hann með silfursjóðnum og sýnir óhagganlega hollustu.",
+      "metadata": {
+        "personur": [
+          {"nafn": "Auður Vésteinsdóttir", "hlutverk": "Kvenhetja sögunnar", "tengsl": "Stendur með manni sínum gegn öllum boðum", "litur": "green"},
+          {"nafn": "Eyjólfur grái", "hlutverk": "Eftirförunautur", "tengsl": "Sá sem leiðir leitina að Gísla", "litur": "red"}
+        ],
+        "stadir": [
+          {"nafn": "Látur", "lysing": "Bær Auðar í Geirþjófsfirði þar sem hún hafnaði silfrinu."}
+        ],
+        "hlutir": [
+          {"nafn": "Silfursjóðurinn", "lysing": "Mútan sem Auður notaði sem vopn gegn Eyjólfi."}
+        ]
+      }
+    },
+    {
+      "id": 7,
+      "titill": "Árekstrar í útlegð",
+      "spennustig": 7,
+      "litakodi": "#555555",
+      "samantekt": "Gísli sleppur margsinnis með brögðum, m.a. með því að dyljast sem fíflið í Hergilsey og fela sig í jörðu hjá Ref og Álfdísi.",
+      "metadata": {
+        "personur": [
+          {"nafn": "Ingjaldur", "hlutverk": "Bóndi í Hergilsey", "tengsl": "Trúr vinur sem hýsir Gísla", "litur": "green"},
+          {"nafn": "Álfdís", "hlutverk": "Eiginkona Refs", "tengsl": "Hjálpar til við að villa um fyrir leitarmönnum", "litur": "grey"}
+        ],
+        "stadir": [
+          {"nafn": "Hergilsey", "lysing": "Eyja á Breiðafirði þar sem Gísli lék fífl til að bjarga sér."},
+          {"nafn": "Jarðhús", "lysing": "Leynileg skýli sem Gísli smíðaði til að fela sig í."}
+        ]
+      }
+    },
+    {
+      "id": 8,
+      "titill": "Endalok Gísla og sögunnar",
+      "spennustig": 10,
+      "litakodi": "#8B0000",
+      "samantekt": "Lokaorrustan á Einhamri. Gísli verst af mikilli hreysti uns hann fellur. Eftirmáli sýnir trú og iðrun Auðar og Þórdísar.",
+      "metadata": {
+        "personur": [
+          {"nafn": "Gísli Súrsson", "hlutverk": "Fallinn kappi", "tengsl": "Deyr hetjudauða", "litur": "green"},
+          {"nafn": "Þórdís Súrsdóttir", "hlutverk": "Iðrandi systir", "tengsl": "Reynir að hefna Gísla og skilur við Börk", "litur": "yellow"},
+          {"nafn": "Auður Vésteinsdóttir", "hlutverk": "Pílagrímur", "tengsl": "Fer til Rómar og snýr aldrei aftur", "litur": "green"}
+        ],
+        "stadir": [
+          {"nafn": "Einhamar", "lysing": "Staðurinn þar sem Gísli barðist við 15 menn einn síns liðs."},
+          {"nafn": "Róm", "lysing": "Lokastaður Auðar þar sem hún leitar sálarróar."}
+        ]
+      }
+    }
+  ]
+}
