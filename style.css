@@ -1,0 +1,125 @@
+/* 1. Grunnstillingar */
+body {
+    background-color: #1a1a1a; /* Dökkur bakgrunnur */
+    color: #e0e0e0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+}
+
+header {
+    margin-top: 50px;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 3rem;
+    color: #d4af37; /* Gullinn litur */
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+header p {
+    font-style: italic;
+    color: #888;
+}
+
+/* 2. Tímalínan sjálf */
+#timeline-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    max-width: 1000px;
+    margin-top: 150px;
+    position: relative;
+    padding: 20px 0;
+}
+
+/* Línan sem tengir punktana */
+#timeline-container::before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 0;
+    right: 0;
+    height: 4px;
+    background: linear-gradient(90deg, #555, #d4af37, #8B0000);
+    transform: translateY(-50%);
+    z-index: 1;
+}
+
+/* Punktarnir (Dot) */
+.timeline-dot {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    position: relative;
+    z-index: 2;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    border: 3px solid #1a1a1a;
+}
+
+.timeline-dot:hover {
+    transform: scale(1.5);
+    box-shadow: 0 0 15px rgba(255, 255, 255, 0.5);
+}
+
+.timeline-dot span {
+    pointer-events: none; /* Svo músin trufli ekki hover */
+}
+
+/* 3. Upplýsingaglugginn (Info Box) */
+#info-box {
+    position: absolute;
+    background-color: #2a2a2a;
+    border: 1px solid #d4af37;
+    padding: 20px;
+    border-radius: 8px;
+    width: 300px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+    z-index: 100;
+    pointer-events: none; /* Glugginn truflar ekki músina */
+    transition: opacity 0.2s ease;
+}
+
+#info-box h3 {
+    margin-top: 0;
+    color: #d4af37;
+    border-bottom: 1px solid #444;
+    padding-bottom: 5px;
+}
+
+#info-box h4 {
+    margin: 15px 0 5px 0;
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    color: #aaa;
+}
+
+#info-box ul {
+    padding-left: 20px;
+    margin: 0;
+    font-size: 0.85rem;
+}
+
+#info-box li {
+    margin-bottom: 5px;
+}
+
+/* Fela gluggann */
+.hidden {
+    display: none;
+    opacity: 0;
+}
